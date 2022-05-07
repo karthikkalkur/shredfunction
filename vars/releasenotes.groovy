@@ -16,7 +16,7 @@ def call(Map config=[:])
 		def now = new Date();
 		def fmt = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
 		writer.writeLine("Date and Time IS: " + fmt.format(now));
-		echo "Build Number is: ${BUILD_NUMBER}");
+		echo "Build Number is: ${BUILD_NUMBER}";
 		writer.writeLine("Build Number is: ${BUILD_NUMBER}");
 
 		if (config.changes != "false"){
